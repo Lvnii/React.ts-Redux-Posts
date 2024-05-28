@@ -1,10 +1,15 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+<<<<<<< HEAD
+=======
+import Layout from './Layout/Layout';
+>>>>>>> 4717c529045b7141cd25252886f57e6351947686
 
 function App() {
   return (
     <div className="App">
+<<<<<<< HEAD
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -19,6 +24,9 @@ function App() {
           Learn React
         </a>
       </header>
+=======
+      <Layout />
+>>>>>>> 4717c529045b7141cd25252886f57e6351947686
     </div>
   );
 }
